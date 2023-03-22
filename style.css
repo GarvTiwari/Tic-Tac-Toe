@@ -1,0 +1,24 @@
+
+nav{
+    margin: 0px;
+    padding:4px;
+    background-color: rgb(20, 147, 56);
+    color: white
+    
+}
+.Class{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+   
+}
+.container{
+    
+    display: grid;
+    grid-template-rows:repat(3,10vw);
+    grid-template-columns: repeat(3,10vh);
+    
+}
+.container div{
+    border: 2px solid black;
+}
